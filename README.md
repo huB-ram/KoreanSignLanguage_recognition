@@ -3,11 +3,14 @@
 
 ## 프로젝트 소개
 ---
-농인들을 위해 카메라로 지수어를 인식한 후 키보드로 타이핑 해주는 프로젝트입니다.
+한국의 등록 청각 장애인 수는 2021 년 기준 411,749 명에 달하며, 이는 전체 등록 장애인의 약 15%에 해당하는 수치로 지체 장애인(45%) 다음으로 가장 높은 비율이다.
+문화체육관광부 ‘2020 년 한국수어 활용 조사’에 따르면, 필담은 청인과 농인이 소통하는 때 쓰이는 가장 흔한 방법이다. 하지만 조사 응답자의 26.1%는 필담을 전혀 또는 거의 이해하지 못하는 것으로 보인다.
+
+본 프로젝트에서는 청각장애인의 보다 편리한 의사소통 을 위해 한국 지문자(finger-spelling) 수어 자판 시스템 을 제안한다. 
+본 시스템은 먼저 MediaPipe로 영상에 서 손과 손가락의 랜드마크를 추출한다. 그 후 추출된 랜드마크의 좌표를 특성으로 하여 XGBoost로 한글 을 표현하는 지문자를 인식한다. 인식된 한글은 PyAutoGUI를 통해 사용자가 원하는 입력창에 입력된다. 자판 시스템에 사용된 모델은 머신러닝을 통해 학습한 모델로, 딥러닝 모델을 사용한 시스템에 비해 가볍고 높은 인식률을 가지고 있다.
 
 
-
-## ⌨️ 개발 환경
+## 개발 환경
 ---
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white"/> <img src="https://img.shields.io/badge/Keras-D00000?style=for-the-badge&logo=Keras&logoColor=white"/> <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/> <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=OpenCV&logoColor=white"/>
 <!-- plastic, flat, flat-square, for-the-badge, social -->
