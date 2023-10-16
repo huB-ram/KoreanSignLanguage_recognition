@@ -67,6 +67,4 @@ LSTM은 98.9%, XGBoost는 99.9%로 두 모델 모두 준수한 정확도를 보�
 <br>
 
 
-### 개발 노션 페이지
-- [Notion 링크](https://rammm.notion.site/8cbcbdcc3df34477888c92ed92233b13)
 
