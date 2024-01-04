@@ -33,6 +33,11 @@ LSTM은 98.9%, XGBoost는 99.9%로 두 모델 모두 준수한 정확도를 보�
 <br>
 <br>
 
+### 시연 영상
+
+[![Demo](https://img.youtube.com/vi/7qGPaRlitDo/0.jpg)](https://www.youtube.com/watch?v=7qGPaRlitDo)
+
+
 ### 실행방법
 
 1. cmd에서 `pip install -r requirements.txt`로 필요 라이브러리 설치한다.
